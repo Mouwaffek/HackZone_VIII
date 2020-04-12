@@ -1,0 +1,12 @@
+when we intercept the request the request of 
+`http://20yjtzrx50hpypicbajmro9dy.ctf.p0wnhub.com:8888/`
+to see where we are redirecting then we got the firebase link related to HZVII
+`hzviii.firebaseio.com`
+and when we search on internet we can get some information about misconfiguration in firebases
+which appears in .json so we proceed the request
+
+`hzviii.firebaseio.com/.json`
+
+And Bingo we get the Flag:
+
+`{"flag":"HZVIII{f1r3b453_d474b453_m15c0nf16ur4710n}"}`
